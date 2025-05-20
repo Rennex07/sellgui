@@ -1,0 +1,19 @@
+name: SellGUI
+version: 1.0
+main: me.zytonal.sellgui.SellGUI
+author: zytonal
+description: A simple Sell GUI plugin for Purpur 1.21.4
+api-version: '1.21'
+softdepend: [Vault, Essentials]
+
+commands:
+  sell:
+    description: Open the sell GUI
+    usage: /sell
+    permission: sellgui.use
+    permission-message: You don't have permission to use this command.
+
+permissions:
+  sellgui.use:
+    description: Allows the player to use the sell command
+    default: true
